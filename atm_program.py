@@ -69,7 +69,7 @@ def search(keyword):
 # User are prompted to enter PIN
 while True:
 
-    id_ = input('Enter PIN: ')
+    id_ = input('Enter PIN: ')  # Enter '123456' to start
     while len(id_) != 6:   # Check if PIN has length of 6 digits
         print('\nHINT: PIN consists of 6 digit numbers\n')
         id_ = input('Re-enter PIN: ')
