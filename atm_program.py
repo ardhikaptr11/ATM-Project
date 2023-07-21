@@ -288,7 +288,7 @@ while True:
                         name_input = input('Enter the name of the account owner: ')
                         while len(name_input) < 3 or name_input.isdigit():  # Name at least has 3 characters long
                             print("\nHINT: Name must be at least 3 characters long and can't be a number")
-                            name_input = input('Enter the name of the account owner: ')
+                            name_input = input('Enter owner keyword name: ')
                         transfer_data[acc_num] = name_input.title()
                         print('\nAccount number has successfully registered!')
                     else:
